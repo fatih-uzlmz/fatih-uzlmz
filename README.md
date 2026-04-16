@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi, I'm Fatih Uzulmez 👋
 
-<!--
-**fatih-uzlmz/fatih-uzlmz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Computer Science & Engineering student at UC Merced and an **Open Source Contributor for Meta (PyTorch)**. I specialize in distributed training infrastructure and system-level rigor.
 
-Here are some ideas to get you started:
+### 🚀 Key Meta / PyTorch Contributions
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* **[MoE Synchronization Fix](https://github.com/pytorch/torchtitan/pull/2416):** Diagnosed and resolved numerical divergence in 
+Mixture of Experts (MoE) by implementing all-reduce operations at the router boundary.
+
+* **[DDP Rank-Aware Logging](https://github.com/pytorch/torchtitan/pull/2312):** (Update this link) Resolved architectural inconsistencies in Distributed Data Parallel sequences to ensure accurate state reporting.
+
+### 🛠️ Technical Focus
+* **Languages:** Python, C++, Java, JavaScript
+* **Infrastructure:** Distributed Data Parallel (DDP), Multi-GPU Synchronization, LLM Scaling (Torchtitan/Torchtune)
