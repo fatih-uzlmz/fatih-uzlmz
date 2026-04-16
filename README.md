@@ -7,7 +7,7 @@ I'm a Computer Science & Engineering student at UC Merced and an **Open Source C
 * **[MoE Synchronization Fix](https://github.com/pytorch/torchtitan/pull/2416):** Diagnosed and resolved numerical divergence in 
 Mixture of Experts (MoE) by implementing all-reduce operations at the router boundary.
 
-* **[DDP Rank-Aware Logging](https://github.com/pytorch/torchtitan/pull/2312):** (Update this link) Resolved architectural inconsistencies in Distributed Data Parallel sequences to ensure accurate state reporting.
+* **[DDP Rank-Aware Logging](https://github.com/pytorch/torchtitan/pull/2383):** Resolved architectural inconsistencies in Distributed Data Parallel sequences to ensure accurate state reporting.
 
 ### 🛠️ Technical Focus
 * **Languages:** Python, C++, Java, JavaScript
