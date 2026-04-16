@@ -1,6 +1,6 @@
 # Hi, I'm Fatih Uzulmez 👋
 
-I'm a Computer Science & Engineering student at UC Merced and an **Open Source Contributor for Meta (PyTorch)**. I specialize in distributed training infrastructure and system-level rigor.
+I'm a Computer Science & Engineering student at UC Merced and an **Open Source Contributor**. I specialize in distributed training infrastructure and system-level rigor.
 
 ### 🚀 Key Meta / PyTorch Contributions
 
