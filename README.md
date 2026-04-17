@@ -2,7 +2,7 @@
 
 I'm a Computer Science & Engineering student at UC Merced and an **Open Source Contributor**. I specialize in distributed training infrastructure and system-level rigor.
 
-### 🚀 Key Meta / PyTorch Contributions
+## 🚀 Key Meta / PyTorch Contributions
 
 * **[MoE Synchronization Fix](https://github.com/pytorch/torchtitan/pull/2416):** Diagnosed and resolved numerical divergence in 
 Mixture of Experts (MoE) by implementing all-reduce operations at the router boundary.
