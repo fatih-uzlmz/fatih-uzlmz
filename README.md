@@ -9,6 +9,10 @@ Mixture of Experts (MoE) by implementing all-reduce operations at the router bou
 
 * **[DDP Rank-Aware Logging](https://github.com/pytorch/torchtitan/pull/2383):** Resolved architectural inconsistencies in Distributed Data Parallel sequences to ensure accurate state reporting.
 
+## 🛠️ Key Google / Gemini-CLI Contributions
+
+* **[Subagent Thread Isolation](https://github.com/google-gemini/gemini-cli/pull/25572):** Engineered a state-management fix to resolve parallel work duplication (Issue #25533). Implemented dynamic context namespacing to ensure mutually exclusive task execution for subagent pools.
+
 ### 🛠️ Technical Focus
 * **Languages:** Python, C++, Java, JavaScript
 * **Infrastructure:** Distributed Data Parallel (DDP), Multi-GPU Synchronization, LLM Scaling (Torchtitan/Torchtune)
