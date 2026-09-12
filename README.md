@@ -4,17 +4,17 @@ I'm a Computer Science & Engineering student at UC Merced and an **open-source c
 
 ## 🚀 Key Meta / PyTorch Contributions
 
-* **[MoE Synchronization Fix](https://github.com/pytorch/torchtitan/pull/2416):** Diagnosed and resolved numerical divergence in 
-Mixture of Experts (MoE) by implementing all-reduce operations at the router boundary.
+- **[MoE Synchronization Fix](https://github.com/pytorch/torchtitan/pull/2416):** Diagnosed and resolved numerical divergence in Mixture of Experts (MoE) by implementing all-reduce operations at the router boundary.
 
-* **[DDP Rank-Aware Logging](https://github.com/pytorch/torchtitan/pull/2383):** Resolved architectural inconsistencies in Distributed Data Parallel sequences to ensure accurate state reporting.
+- **[DDP Rank-Aware Logging](https://github.com/pytorch/torchtitan/pull/2383):** Resolved architectural inconsistencies in Distributed Data Parallel sequences to ensure accurate state reporting.
 
-* **[ExecuTorch SmolLM2 Token Fallback](https://github.com/pytorch/executorch/pull/22633):** Fixed BOS/EOT fallback handling for absent tokenizer IDs while preserving valid token ID `0`; added six-case regression coverage and optional-dependency-safe CI collection.
+- **[ExecuTorch SmolLM2 Token Fallback](https://github.com/pytorch/executorch/pull/22633):** Fixed BOS/EOT fallback handling for absent tokenizer IDs while preserving valid token ID `0`; added six-case regression coverage and optional-dependency-safe CI collection.
 
-## ✨ Key Google / Gemini-CLI Contributions (in progress)
+## ✨ Key Google / Neuroglancer Contribution (in progress)
 
-* **[Subagent Thread Isolation](https://github.com/google-gemini/gemini-cli/pull/25572):** Engineered a state-management fix to resolve parallel work duplication (Issue #25533). Implemented dynamic context namespacing to ensure mutually exclusive task execution for subagent pools.
+- **[Safari State Share Clipboard Fix](https://github.com/google/neuroglancer/pull/1107):** Fixed Safari clipboard failures caused by expired user activation during asynchronous state sharing; added a promise-backed clipboard flow, a manual-copy fallback, and regression coverage.
 
 ### 🛠️ Technical Focus
-* **Languages:** Python, C++, Java, JavaScript
-* **Infrastructure:** Distributed Data Parallel (DDP), Multi-GPU Synchronization, LLM Scaling (TorchTitan/TorchTune), On-Device ML (ExecuTorch)
+
+- **Languages:** Python, C++, Java, JavaScript
+- **Infrastructure:** Distributed Data Parallel (DDP), Multi-GPU Synchronization, LLM Scaling (TorchTitan/TorchTune), On-Device ML (ExecuTorch)
