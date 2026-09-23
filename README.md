@@ -10,7 +10,7 @@ I'm a Computer Science & Engineering student at UC Merced and an **open-source c
 
 - **[ExecuTorch SmolLM2 Token Fallback](https://github.com/pytorch/executorch/pull/22633):** Fixed BOS/EOT fallback handling for absent tokenizer IDs while preserving valid token ID `0`; added six-case regression coverage and optional-dependency-safe CI collection.
 
-## ✨ Key Google / Neuroglancer Contributions (in progress)
+## ✨ Key Google / Neuroglancer Contributions 
 
 - **[Safari State Share Clipboard Fix](https://github.com/google/neuroglancer/pull/1107):** Fixed Safari clipboard failures caused by expired user activation during asynchronous state sharing; added a promise-backed clipboard flow, a manual-copy fallback, and regression coverage.
 
