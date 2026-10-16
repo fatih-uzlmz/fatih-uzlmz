@@ -2,7 +2,7 @@
 
 I'm a Computer Science & Engineering student at UC Merced and an **open-source contributor** focused on distributed training, on-device ML, and tools for AI hardware.
 
-## <img src="https://cdn.simpleicons.org/meta/0866FF" alt="Meta logo" width="26" height="26"> Key Meta Contributions (PyTorch etc.)
+## <img src="https://cdn.simpleicons.org/meta/0866FF" alt="Meta logo" width="26" height="26"> <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" alt="PyTorch logo" width="26" height="26"> Key Meta Contributions (PyTorch etc.)
 
 - **[MoE Synchronization Fix](https://github.com/pytorch/torchtitan/pull/2416):** Diagnosed and resolved numerical divergence in Mixture of Experts (MoE) by implementing all-reduce operations at the router boundary.
 
@@ -14,7 +14,7 @@ I'm a Computer Science & Engineering student at UC Merced and an **open-source c
 
 - **[Muse Gadgets Simulator Shutdown Fix](https://github.com/facebookincubator/muse-gadget-sdk/pull/5):** Fixed a reproducible macOS headless-test shutdown failure by switching the desktop simulator's LVGL draw workers to the POSIX backend; verified 30/30 test runs and a passing sanitizer test.
 
-## <img src="https://cdn.simpleicons.org/google/4285F4" alt="Google logo" width="26" height="26"> Key Google / Neuroglancer Contributions (more in progress...)
+## <img src="https://blog.google/static/blogv2/images/super-g-aurora.svg" alt="Google logo" width="26" height="26"> Key Google / Neuroglancer Contributions (more in progress...)
 
 - **[Safari State Share Clipboard Fix](https://github.com/google/neuroglancer/pull/1107):** Fixed Safari clipboard failures caused by expired user activation during asynchronous state sharing; added a promise-backed clipboard flow, a manual-copy fallback, and regression coverage.
 
