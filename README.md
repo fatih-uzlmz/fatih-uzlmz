@@ -4,7 +4,7 @@
 I'm a Computer Science & Engineering student at UC Merced and an **open-source contributor** focused on distributed training, on-device ML, and tools for AI hardware.
 
 
-## 🚀 Key Meta Contributions (PyTorch & Muse Gadgets)
+## 🚀 Key Meta Contributions (PyTorch etc.)
 
 
 - **[MoE Synchronization Fix](https://github.com/pytorch/torchtitan/pull/2416):** Diagnosed and resolved numerical divergence in Mixture of Experts (MoE) by implementing all-reduce operations at the router boundary.
@@ -22,7 +22,7 @@ I'm a Computer Science & Engineering student at UC Merced and an **open-source c
 - **[Muse Gadgets Simulator Shutdown Fix](https://github.com/facebookincubator/muse-gadget-sdk/pull/5):** Fixed a reproducible macOS headless-test shutdown failure by switching the desktop simulator's LVGL draw workers to the POSIX backend; verified 30/30 test runs and a passing sanitizer test.
 
 
-## ✨ Key Google / Neuroglancer Contributions 
+## ✨ Key Google / Neuroglancer Contributions (more in progress...)
 
 
 - **[Safari State Share Clipboard Fix](https://github.com/google/neuroglancer/pull/1107):** Fixed Safari clipboard failures caused by expired user activation during asynchronous state sharing; added a promise-backed clipboard flow, a manual-copy fallback, and regression coverage.
